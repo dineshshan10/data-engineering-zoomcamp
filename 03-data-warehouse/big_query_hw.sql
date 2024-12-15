@@ -27,4 +27,4 @@ WHERE DATE(dropoff_datetime) BETWEEN '2019-01-01' AND '2019-03-31'
 
 SELECT count(*) FROM `taxi-rides-ny.nytaxi.fhv_partitioned_tripdata`
 WHERE DATE(dropoff_datetime) BETWEEN '2019-01-01' AND '2019-03-31'
-  AND dispatching_base_num IN ('B00987', 'B02279', 'B02060');
+  AND dispatching_base_num IN ('B00987', 'B02279', 'B02061');
